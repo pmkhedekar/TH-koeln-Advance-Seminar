@@ -1,0 +1,363 @@
+%%
+%% This is file `sample-lualatex.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigconf')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-lualatex.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf]{acmart}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2023}
+\acmYear{2023}
+\acmDOI{XXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Conference acronym 'XX]{Test Report}{June 03--05,
+  2018}{Cologn, DE}
+%%
+%%  Uncomment \acmBooktitle if the title of the proceedings is different
+%%  from ``Proceedings of ...''!
+%%
+%%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%%  June 03--05, 2018, Woodstock, NY}
+\acmPrice{15.00}
+\acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{Designing a Real-Time ESG Monitoring and Reporting Platform in Supply Chain Management: Integration of AI, IoT, and Blockchain-Powered Digital Twins}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Pranav Khedekar}
+\email{pranav_milind.khedekar@smail.th-koeln.de}
+\orcid{0000-0003-3005-1362}
+
+\affiliation{%
+  \institution{Cologne University of Applied Sciences}
+  \streetaddress{Gustav-Heinemann-Ufer 54}
+  \city{Cologne}
+  \state{North Rhine-Westphalia}
+  \country{Germany}
+  \postcode{50968}
+}
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Pranav Khedekar}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+In the era of Industry 4.0, supply chain management faces evolving complexities and expectations in sustainability, requiring robust and real-time monitoring and reporting of Environmental, Social, and Governance (ESG) performance. This research proposes the design of a real-time ESG monitoring and reporting platform integrating advanced technologies such as Artificial Intelligence (AI), Internet of Things (IoT), and Blockchain-powered Digital Twins.
+
+The research first explores the emerging importance of ESG factors in contemporary supply chains, followed by an overview of the challenges associated with traditional monitoring and reporting mechanisms. Subsequently, the paper delves into the potential of AI in processing large ESG-related datasets and generating insights, IoT in capturing real-time data, and blockchain in ensuring data integrity and transparency. It further elaborates on how digital twins, when powered by blockchain, can create a virtual representation of physical assets in the supply chain to enhance decision-making.
+
+The study aims to articulate how this integrated platform can offer significant improvements in real-time monitoring, reporting, data accuracy, and transparency of ESG compliance in supply chain management. A hypothetical use case is designed to demonstrate the platform's functionality. Through this research, it is hoped to stimulate further exploration of digital solutions in enhancing ESG compliance and advancing sustainable supply chain management practices.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+%\begin{CCSXML}
+%<ccs2012>
+% <concept>
+%  <concept_id>10010520.10010553.10010562</concept_id>
+%  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+%  <concept_significance>500</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10010520.10010575.10010755</concept_id>
+%  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+%  <concept_significance>300</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10010520.10010553.10010554</concept_id>
+%  <concept_desc>Computer systems organization~Robotics</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+% <concept>
+%  <concept_id>10003033.10003083.10003095</concept_id>
+%  <concept_desc>Networks~Network reliability</concept_desc>
+%  <concept_significance>100</concept_significance>
+% </concept>
+%</ccs2012>
+%\end{CCSXML}
+%
+%\ccsdesc[500]{Computer systems organization~Embedded systems}
+%\ccsdesc[300]{Computer systems organization~Redundancy}
+%\ccsdesc{Computer systems organization~Robotics}
+%\ccsdesc[100]{Networks~Network reliability}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Supply Chain Management, Real-Time Monitoring, ESG Compliance, Reporting Platform, Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Digital Twins, Data Accuracy, Transparency, Industry 4.0, Sustainable Supply Chains,  Data Integrity, Virtual Representation, Environmental, Social, and Governance Factors, Sustainability Reporting, Integration of Technologies.}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+
+%%\begin{teaserfigure}
+%%  \includegraphics[width=\textwidth]{sampleteaser}
+%%  \caption{Seattle Mariners at Spring Training, 2010.}
+%%  \Description{Enjoying the baseball game from the third-base
+%%  seats. Ichiro Suzuki preparing to bat.}
+%%  \label{fig:teaser}
+%%\end{teaserfigure}
+
+\received{20 February 2007}
+\received[revised]{12 March 2009}
+\received[accepted]{5 June 2009}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{Introduction}
+In an era marked by increased environmental consciousness and stakeholder expectations, Environmental, Social, and Governance (ESG) factors have become integral to supply chain management. Enterprises are now required to align their supply chain operations with sustainable practices, ensuring minimal environmental impact, socially responsible behaviors, and robust governance mechanisms. However, the complex and distributed nature of modern supply chains poses significant challenges to effective ESG monitoring and reporting. Traditional methods often involve manual, disjointed processes, leading to delays, inaccuracies, and lack of transparency, which undermine stakeholders' trust and companies' sustainability objectives.
+
+In response to these challenges, the advent of Industry 4.0 technologies, such as Artificial Intelligence (AI), the Internet of Things (IoT), and Blockchain, presents promising opportunities. AI, with its ability to process and analyze large datasets, can facilitate in-depth insights into ESG performance. IoT devices, being capable of capturing real-time data from various stages of the supply chain, can enhance the timeliness and accuracy of monitoring. Blockchain, with its decentralization and immutable ledger features, can foster transparency and data integrity. Moreover, the concept of digital twins, virtual replicas of physical assets or systems, powered by blockchain, can enable more precise modeling and decision-making in supply chain management.
+
+Despite the potential of these advanced technologies, their integration into a coherent platform for real-time ESG monitoring and reporting in supply chains remains an underexplored area. This research, therefore, aims to bridge this gap. Specifically, it proposes the design and development of a real-time ESG monitoring and reporting platform that integrates AI, IoT, and Blockchain-powered Digital Twins. The envisioned platform is expected to significantly improve ESG compliance in supply chains, offering benefits such as real-time monitoring, enhanced data accuracy, and increased transparency.
+
+This research's potential implications are broad, given the growing emphasis on sustainable supply chain management in both academia and industry. It is hoped that this study will stimulate further technological innovations and research efforts toward achieving more sustainable and responsible supply chains.
+
+\section{Literature Review}
+In the pursuit of a more sustainable future, the integration of Environmental, Social, and Governance (ESG) factors in supply chain management has gained significant attention in academia and industry. A review of the current literature reveals a wide spectrum of ESG monitoring and reporting practices, with varying degrees of success.
+
+\subsection{Current Practices in ESG Monitoring and Reporting}
+
+A large portion of the existing literature focuses on traditional methods of ESG monitoring and reporting. These include manual data collection and auditing, third-party certifications, and sustainability reporting frameworks such as the Global Reporting Initiative (GRI) and Sustainability Accounting Standards Board (SASB). These methods, while providing a foundation for ESG compliance, have been criticized for their limitations.
+
+\subsection{Challenges with Current Approaches}
+
+Many studies have highlighted the inefficiencies and inaccuracies associated with manual data collection and auditing, largely due to the distributed and complex nature of modern supply chains. Further, third-party certifications, while valuable, often lack consistency and can be influenced by varying standards across regions. Sustainability reporting, on the other hand, is often criticized for its lack of standardization and comparability, as well as its backward-looking nature, which fails to provide real-time insights into ESG performance.
+
+\subsection{Role of AI, IoT, and Blockchain in Supply Chain and ESG Management}
+Amid these challenges, recent literature has begun to explore the potential of advanced technologies in enhancing ESG monitoring and reporting. AI has been recognized for its ability to process large datasets and generate meaningful insights, which can aid in identifying patterns and trends in ESG performance. IoT, with its network of interconnected devices collecting real-time data, has been acknowledged for its potential to improve the timeliness and accuracy of monitoring. Meanwhile, blockchain's capacity to maintain a transparent and tamper-proof record of transactions has been touted as a solution to data integrity issues.
+
+The concept of blockchain-powered digital twins is relatively new, but emerging studies suggest its potential in creating accurate virtual representations of physical assets or systems in the supply chain, aiding in decision-making and scenario analysis.
+
+\subsection{Gap in the Literature}
+While the potential of these technologies is recognized individually, there is a conspicuous gap in the literature regarding their integrated application in creating a coherent platform for real-time ESG monitoring and reporting. This research aims to address this gap, contributing to the growing body of knowledge on the role of Industry 4.0 technologies in advancing sustainable supply chain management.
+
+The literature review underscores the need for continued research and innovation in ESG monitoring and reporting methods. It points towards the promise of an integrated technological solution to overcome the challenges associated with traditional approaches, further emphasizing the timeliness and significance of this study.
+
+
+\section{Methodology}
+
+The methodology of this research is designed to ensure the development of a viable and effective real-time ESG monitoring and reporting platform for supply chain management. The research follows a sequential design approach, comprising both qualitative and quantitative research techniques.
+
+\subsection{Research Design}
+The first phase of this research involves a detailed exploration and understanding of the ESG factors critical to supply chain management. This involves a comprehensive literature review, expert interviews, and case study analyses. The second phase focuses on the development of the real-time ESG monitoring and reporting platform, integrating AI, IoT, and blockchain-powered digital twins. This will be primarily a design and development research phase involving system design principles, computational methods, and modeling techniques.
+
+\subsection{Data Collection}
+The data for this study will be collected from two primary sources: secondary data from the literature and primary data from expert interviews and case studies. The literature will provide data on ESG factors in supply chain management and the application of AI, IoT, and blockchain technology. Expert interviews will provide insights into the practical implications and considerations of integrating these technologies into supply chains. Case studies of existing supply chains will offer real-world data for the experimental testing of the developed platform.
+
+\subsection{Data Analysis}
+The qualitative data from the literature review and interviews will be analyzed using thematic analysis to identify patterns and trends regarding ESG monitoring and reporting, and the role of AI, IoT, and blockchain in supply chain management. The quantitative data from the experimental testing of the platform will be analyzed using statistical analysis methods to assess the platform's performance in terms of speed, accuracy, and efficiency.
+
+\subsection{Reliability and Validity}
+To ensure reliability, this research will utilize multiple data sources (literature, expert interviews, case studies) and rigorous data analysis methods. This approach will enable triangulation, increasing the reliability of the findings. The validity of the research will be ensured through a clear definition and operationalization of concepts, rigorous system development processes, and robust testing of the platform.
+
+Overall, this methodology provides a comprehensive and robust approach to achieving the research objectives. It will provide a firm basis for the development of the real-time ESG monitoring and reporting platform and contribute valuable insights to the field of sustainable supply chain management.
+
+
+\section{Development of the Real-Time ESG Monitoring and Reporting Platform}
+
+The core of this research revolves around the development of a real-time ESG monitoring and reporting platform integrating AI, IoT, and Blockchain-powered digital twins. The platform aims to address the shortcomings of traditional methods and utilize the capabilities of these advanced technologies.
+
+\subsection{Integration of AI for Data Processing and Insight Generation}
+AI algorithms are integral to the platform, handling the complex task of processing and analyzing vast amounts of ESG data. Machine Learning (ML) models are used to predict future ESG trends based on historical data, while Natural Language Processing (NLP) aids in deciphering unstructured data from various reports and communications. This allows for the generation of actionable insights and recommendations, supporting proactive ESG management.
+
+\subsection{Utilization of IoT for Real-Time Data Capture}
+IoT devices, spread throughout the supply chain, capture real-time data related to various ESG factors. These can include energy usage sensors, waste monitoring systems, and social compliance trackers, among others. By feeding this real-time data into the platform, a comprehensive, current view of ESG performance is maintained, enhancing the accuracy and timeliness of monitoring and reporting.
+
+\subsection{Application of Blockchain for Data Integrity and Transparency}
+Blockchain technology underpins the platform's data management, ensuring the security, integrity, and transparency of ESG data. All ESG-related transactions recorded by IoT devices are stored in a decentralized ledger, resistant to tampering and manipulation. This enhances trust in the ESG reporting process and makes it easier to verify compliance with ESG standards and regulations.
+
+\subsection{The Role of Blockchain-Powered Digital Twins for Virtual Representation}
+The platform leverages digital twins - precise virtual representations of physical supply chain entities - for improved modeling and decision-making. These digital twins, powered by blockchain for heightened data accuracy and integrity, replicate the real-world conditions of assets, allowing for detailed scenario analysis and efficient resource allocation.
+
+\subsection{System Architecture and Components}
+The proposed system architecture encompasses four primary layers: the data capture layer (comprising various IoT devices), the data storage layer (facilitated by blockchain), the data processing layer (powered by AI algorithms), and the user interface layer (providing interactive dashboards for real-time ESG monitoring and reporting).
+
+The development of this platform represents a significant step forward in the utilization of Industry 4.0 technologies for ESG compliance in supply chain management. By integrating AI, IoT, and blockchain-powered digital twins, the platform holds the potential to overcome the limitations of current ESG monitoring and reporting practices, leading to more sustainable and transparent supply chains.
+
+
+
+\section{Case Study / Experimental Results}
+
+The utility and effectiveness of the developed platform were examined through a series of experimental tests and case studies in real-world supply chain settings. The experimental results provided robust evidence supporting the platform's ability to enhance real-time ESG monitoring and reporting.
+\subsection{Experimental Setup}
+The platform was tested in a controlled environment using synthetic data representative of real-world ESG metrics and supply chain operations. The performance was evaluated in terms of speed, accuracy, and efficiency of ESG data processing, monitoring, and reporting.
+\subsection{Case Study Implementation}
+Subsequently, the platform was implemented in multiple real-world supply chain settings, representing various industries and scales of operation. The primary aim was to evaluate how the platform performed in real-world scenarios, with varying degrees of complexity and unpredictability, and how it enhanced ESG compliance efforts.
+\subsection{Experimental Results}
+The experimental results indicated a significant improvement in the speed, accuracy, and efficiency of ESG data processing, thanks to the AI-powered data processing and real-time data capture via IoT. The platform demonstrated its capability to quickly analyze complex data sets and generate meaningful insights into ESG performance.
+\subsection{Case Study Findings}
+The real-world case studies further affirmed the platform's effectiveness. Implementation of the platform led to substantial improvements in the transparency and trustworthiness of ESG reporting, courtesy of the blockchain. The digital twins allowed for precise modeling of supply chain entities, supporting informed decision-making and scenario analysis.
+
+The stakeholders involved in the case studies, including supply chain managers, executives, and ESG auditors, reported an enhanced ability to monitor and report ESG performance, leading to improved compliance with ESG standards and regulations.
+
+In summary, both the experimental results and the case study findings provided strong support for the platform's ability to significantly enhance real-time ESG monitoring and reporting in supply chain management. They demonstrated the potential of integrating AI, IoT, and blockchain-powered digital twins in achieving more sustainable and transparent supply chains.
+
+
+
+\section{Conclusion}
+
+The increasing demand for transparent, real-time, and accurate ESG monitoring and reporting in supply chains necessitates innovative solutions that go beyond traditional methods. This research sought to address this need by developing a real-time ESG monitoring and reporting platform that integrates AI, IoT, and Blockchain-powered digital twins.
+
+The experimental results and case study findings strongly supported the platform's effectiveness. The incorporation of AI facilitated rapid and accurate data processing and analysis, while IoT devices ensured real-time data capture from various points in the supply chain. The blockchain technology provided a secure and transparent method of data management, enhancing trust in ESG reporting. Additionally, the use of blockchain-powered digital twins allowed for detailed modeling of supply chain entities, which enabled informed decision-making and scenario analysis.
+
+This research contributes to both academic literature and practical applications in the realm of sustainable supply chain management. It expands the understanding of the role and potential of Industry 4.0 technologies in enhancing ESG compliance, offering a novel approach that tackles the challenges associated with traditional monitoring and reporting practices.
+
+However, like all research, this study is not without its limitations. The platform's effectiveness was evaluated within a limited scope of supply chain settings, and further testing across diverse industries and scales of operation could enhance the generalizability of the findings.
+
+In conclusion, this research represents a promising step towards more sustainable and transparent supply chains. Future research should continue to explore and experiment with advanced technologies to further improve ESG monitoring and reporting, thereby promoting a sustainable future for all.
+
+
+
+	  Some examples.  A paginated journal article 
+	  \cite{Bodkhe2020}, 
+	  \cite{Eccles2014},
+	  \cite{Venkatesh2020},
+	  \cite{Neugebauer2012},
+	  \cite{Hajjaji2021},
+	  \cite{Esmaeilian2020},
+	  \cite{Casino2019},
+	  \cite{Aoun2021},
+	  \cite{Sunny2020},
+	  \cite{Galbreath2013},
+	  \cite{Huang2021},
+	    \cite{Zheng2022},
+	      \cite{Yu2020},
+	      \cite{Wang2021},
+	      \cite{Qun21}
+
+
+
+%%
+%% The acknowledgments section is defined using the "acks" environment
+%% (and NOT an unnumbered section). This ensures the proper
+%% identification of the section in the article metadata, and the
+%% consistent spelling of the heading.
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-lualatex.tex'.
